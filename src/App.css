@@ -1,0 +1,45 @@
+
+
+.container1 {
+  height: 1000px;
+  width: 1000px;
+  margin-left: 160px;
+  margin-top: -80px;
+  margin-right: 400px;
+  position:absolute;
+
+}
+
+
+h1 {
+margin-bottom: -80px;
+margin-right: 100px;
+margin-left: 100px;
+color: black;
+width:1000px;
+height: 200px;
+align-content: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between chart items */
+}
+
+.chart-bonos {
+  border: 1px solid #ccc; /* Add borders to the chart items */
+  padding: 20px; /* Add padding to the chart items */
+}
+
+h2{
+  margin-left: 300px;
+  font-size: 30px;
+}
+
+.titulo-bonos {
+  text-align: center; /* Center-align the general title */
+  margin-bottom: -100px;
+  margin-left: 400px; /* Add some bottom margin to separate it from the grid */
+}
